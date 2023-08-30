@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/images/logo.svg';
+import './styles/App.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="myApp">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
