@@ -1,5 +1,6 @@
 import logo from './assets/images/logo.svg';
 import './styles/App.scss';
+import MyComponent from './views/example/myComponent';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <MyComponent />
       </header>
     </div>
   );
